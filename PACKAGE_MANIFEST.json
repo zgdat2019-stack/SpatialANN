@@ -1,0 +1,74 @@
+{
+  "model_fold": 1,
+  "checkpoint_sha256": "8085412165343e93edcabc9f296f49b696b0340fb09a288d3336dddff11526d9",
+  "checkpoint_matches_product_header": "MWS03_dailymax_wind_0p1deg_197901.nc in 1979.zip",
+  "model_source_unchanged": true,
+  "validation": "File integrity and static review only; no inference or SLURM submission executed for this release.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 72,
+      "sha256": "af84b0c87922ff2a77dba4318418d894ae63096307e3fbfb2c8e3715dd8283b1"
+    },
+    {
+      "path": "check_results.sh",
+      "bytes": 165,
+      "sha256": "43572c2d0e8ea23adc3e75238b70fdd448d68cc767f68e07c60ddae92d2d5be9"
+    },
+    {
+      "path": "config.sh",
+      "bytes": 1633,
+      "sha256": "06f8dfbccfe015db458c3c043138ddf6d0694a27d9e110657c2e880cbafe64b3"
+    },
+    {
+      "path": "data/fold01/ckpt/checkpoint_sha256.txt",
+      "bytes": 124,
+      "sha256": "95dbeae885dea84505275957846db651fc9484bc3c08eceb4196198b925bbe86"
+    },
+    {
+      "path": "data/fold01/ckpt/cnp_gpd_tail_no_coordinate_features_5fold_3yr_era5land.pt",
+      "bytes": 8630634,
+      "sha256": "8085412165343e93edcabc9f296f49b696b0340fb09a288d3336dddff11526d9"
+    },
+    {
+      "path": "data/fold01/ckpt/inference_metadata.json",
+      "bytes": 9403,
+      "sha256": "8582dc75a450cc92158d8e8ee15b2df4e136a38589a8c3775a3123e322ca7f54"
+    },
+    {
+      "path": "data/fold01/Table_fold01_node_split_metadata.csv",
+      "bytes": 43434,
+      "sha256": "0c56f5a00bd60864b5f61ad5aa412c083e0b6a69633a244ad47357a0d24633c4"
+    },
+    {
+      "path": "model_source.py",
+      "bytes": 238400,
+      "sha256": "d54f72c1bbbaf5cf0cd9513fe97fd0c60a7604b40b6dd66f7a40626a509e2e5b"
+    },
+    {
+      "path": "product.py",
+      "bytes": 35221,
+      "sha256": "41db87532a6c2607db7eccacdd29a14130f20bc546987e5259ae3d055890402f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4493,
+      "sha256": "b7fd1e2ab27fed868a01199c03146fa570e76ee6f36cce9c8b96356c962df63f"
+    },
+    {
+      "path": "retry_tasks.sh",
+      "bytes": 941,
+      "sha256": "45c340d866065feef8b06a851b2527be8433133560027bb6955f343d59de30c8"
+    },
+    {
+      "path": "run_worker.sh",
+      "bytes": 916,
+      "sha256": "d8911d1a9cc7b6be5e07937bdb82fe7bbd09c62bcf629a5807c27b9917c927b1"
+    },
+    {
+      "path": "submit_all.sh",
+      "bytes": 2127,
+      "sha256": "82f9d9565916ea5e81a8b8cb2de2769a684fa9fabe7567159eab71b4a0605c75"
+    }
+  ]
+}

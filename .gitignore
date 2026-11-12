@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+inputs/
+result/
+cache/
+logs/
+*.partial
+.DS_Store
